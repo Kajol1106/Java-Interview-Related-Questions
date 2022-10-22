@@ -1,0 +1,24 @@
+Exception Handling in Java : 
+============================
+
+    introduction : 
+        An Exception is an unwanted or unexpected event which occurs during the execution of 
+    program. Means at the run time it disturupts the normal flow of the exection of program's instructions.
+    Whenever there is exception, the method in which exception occurs will create an object and 
+    that object will store three things :
+    1) Exception name
+    2) Description
+    3) Stack Trace
+
+    Exception Handling :
+        It is an mechanisam of handling the exception or using an alternative method to continue
+    the flow of execution without any disturbance is called as the Exception handling.
+
+    Example : 
+        Suppose that we have to reach at the institue daily by time. We prefer to reach the 
+    institute by using bike. Then this become an normal flow of reaching at the institue. But
+    one day bike's tire got punctured due to that we are not able to reach institue by time.
+    This is called the exception. Which disrupts the normal flow. For this we should find out 
+    an alternative way to reach at the institue. That is called as the exception handling.
+
+    
