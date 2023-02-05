@@ -1,2 +1,0 @@
-SQL default port = 3306
-Tomcat Server Default port = 8080

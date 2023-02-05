@@ -1,2 +1,0 @@
-In a constructor u can use only super or this. You can't use both simultaneously. If u used both then u will get a 
-compile time error.
