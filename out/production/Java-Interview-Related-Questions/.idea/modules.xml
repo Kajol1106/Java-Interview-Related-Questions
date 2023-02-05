@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Exception Handling/Smart Programming/Customized Exception/Customized Exception.iml" filepath="$PROJECT_DIR$/Exception Handling/Smart Programming/Customized Exception/Customized Exception.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Java-Interview-Related-Questions.iml" filepath="$PROJECT_DIR$/Java-Interview-Related-Questions.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Multithreading/Multithreading.iml" filepath="$PROJECT_DIR$/Multithreading/Multithreading.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Exception Handling/Smart Programming/Smart Programming.iml" filepath="$PROJECT_DIR$/Exception Handling/Smart Programming/Smart Programming.iml" />
+    </modules>
+  </component>
+</project>

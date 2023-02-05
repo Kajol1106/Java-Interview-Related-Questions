@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/Difference between Checked and Unchecked Exception" isTestSource="false" packagePrefix="com.ExceptionHandling" />
+      <sourceFolder url="file://$MODULE_DIR$/Difference between final and finally and finalize" isTestSource="false" packagePrefix="com.ExceptionHandling" />
+      <sourceFolder url="file://$MODULE_DIR$/Finally Block" isTestSource="false" packagePrefix="com.ExceptionHandling" />
+      <sourceFolder url="file://$MODULE_DIR$/Methods to print exception information" isTestSource="false" packagePrefix="com.ExceptionHandling" />
+      <sourceFolder url="file://$MODULE_DIR$/Possible Combination of try catch block" isTestSource="false" packagePrefix="com.ExceptionHandling" />
+      <sourceFolder url="file://$MODULE_DIR$/Throw Keyword" isTestSource="false" packagePrefix="com.ExceptionHandling" />
+      <sourceFolder url="file://$MODULE_DIR$/Throws Keyword" isTestSource="false" packagePrefix="com.ExceptionHandling" />
+      <sourceFolder url="file://$MODULE_DIR$/Try and Catch" isTestSource="false" packagePrefix="com.ExceptionHandling" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>

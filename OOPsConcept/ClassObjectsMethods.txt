@@ -1,0 +1,60 @@
+OOP :
+======
+
+Defination : OOP's stands for Object Oriented Programming Structure . This Paradigm can also be termed as
+method to solve some problem or to do some task. Programming Paradigm is an approach to solve problem using
+some tools and techniques. In OOP's is way by help of which many problem can be solved.
+
+The main conepts or Pillars of OOP's :
+1) Class
+2) Object, Methods
+3) Inheritance
+4) Polymorphisam
+5) Abstraction
+6) Encapsulation
+
+==========================================================================================================
+
+1) Class :
+==========
+    - It is a main pillar of OOP's.
+    - If we relate class with real world then it can be considered as a category of some object like
+    an animal class which is having catx, dogs, lions etc.
+    - So in this the main categorization is called class like animal, birds or vechiles.
+    - In terms of java class can be defined as a collection of objects.
+    - It is not a rea world entity and it is just a template, bluepring or prototype class does not occupy
+    memory because a class like animal but its objects like cates dogs can occupy memory.
+    - Syntax :
+    class Animal {
+        //some stufff here
+    }
+==========================================================================================================
+
+2) Methods :
+============
+    - A method can be defined as set of codes or instruction which perform a particular task.
+    - The methods can be used again and again in a particular code.
+    - Advantages :
+        1) Code reusability
+        2) Code optimization
+    - Syntax :
+        access_modifier return_type methodname(list of parameters) {
+            //method stuff
+        }
+
+=====================================================================================================
+
+3) Object :
+============
+    - It is an instance of class like animal is as class and dog is an instance of animal class.
+    - It is a real world entity.
+    - Objects also occupy memory
+    - It consist of their own identity
+    - Object consist of :
+        . Identity (Name)
+        . States/attribute (Link color, breed or age of dogs etc)
+        . Behaviour (eat, run)
+    - ex., Animal animal = new Animal();
+
+========================================================================================================
+

@@ -1,0 +1,33 @@
+- It is introduced in java 1.8 version.
+
+- Main motive is to implement functional interface (Functional Programming Feature) and code optimization
+
+- In OOP Data store int form of class and objects
+
+- Functional Programming - store data in function and varibale form.
+
+- Lambda expression is annonymous function in java (It does'nt have name and return type and no return value and doesn't have access modifier)
+
+- Examples :
+1)
+public void method() {
+    System.out.println("Hello");
+   }
+
+We can write above example using lambda expression :
+() -> System.out.println("Hello");
+
+2)
+public void method(int a, int b) {
+    System.out.println(a+b);
+}
+(a, b) -> System.out.println(a+b);
+// No need to define datatype also.
+
+3)
+public void method(int a) {
+    return a*a;
+}
+(a) -> {return a*a; } or (a) -> a*a; or a-> a*a;
+
+
