@@ -1,6 +1,6 @@
 package com.ExceptionHandling;
 
-public class Voting {
+public class VotingExample {
 
 	public static void main(String[] args) {
 		try {

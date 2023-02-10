@@ -7,6 +7,7 @@ public class ArrayListDemo {
         ArrayList<Integer> list1 = new ArrayList<>();
         list1.add(78);
         list1.add(3);
+        list1.add(null); //we can insert null value also
 
         ArrayList<Integer> list = new ArrayList<>();
         //add method

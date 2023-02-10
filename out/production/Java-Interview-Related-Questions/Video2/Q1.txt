@@ -1,0 +1,178 @@
+1) What is the J2EE, list out some of the Application Server names.
+
+ans.============================================================
+
+J2EE is a short form of Java 2 Enterprise Edition, formerly known as Java 2 Platform Enterprise Edition
+
+ J2EE provides a set of services that are built-in a very large scale, multi-tier, component-based, distributed
+
+ Usually, J2EE is a set of APIs that helps in building large-scale applications. 
+
+ J2EE Technology not only uses the APIs but also it is a standard for building and deploying enterprise applications.
+
+ it promises “write once, run anywhere”.
+
+ Java Enterprise Edition includes several specifications that serve various purposes like generating web pages, 
+ reading and writing from the database, managing distributed queues.
+
+ Names : 
+ 1) Java Servelet
+ 2) JSP (Java Server Pages)
+ 3) EJB (Enterprise Java Bean)
+ 4) JTA (Java Transaction API)
+ 5) JCA (J2EE Connector Architecture)
+
+
+
+
+
+
+2) What is the difference between an Application Server and a Web server?
+
+ans.=========================================================================
+
+Here are some important differences between Web Server and Application Server:
+
+Application Server :
+1) An application server is a sever type that helps you to host applications.
+2) It exposes business logic to the clients, which generates dynamic content.
+3) Superset of a web server.
+4) Application servers use for text document generation for the computation on provided data.
+5) The client-side application is need to continuous data exchange between the application server and client application.
+6) The application server offers an ambiance to expose the functionality of the software installed at the server-side to the clients.
+7) Application servers are accessed using APIs.
+8) The result is XML, JSON, and HTML, etc. files that contain required data and can serve a special purpose depending upon the user’s needs.
+9) The application server delivers dynamic content.
+10) Reduces web traffic, which is not resource-intensive.
+11) The application server utilizes more resources.
+12) The application server supports HTTP and RPC/RMI protocols.
+13) The application server helps you to serve web-based applications as well as enterprise-based applications.
+14) Assist Application server services such as transaction support, connection pooling, object pooling.
+15) Application server assists multithreading and distributed transactions.
+16) Application server can also serve HTTP content. However, it is also assists protocol like RMI/RPC.
+17) The application server gives an environment to run the web with enterprise applications.
+
+
+Web Server : 
+1) Web Server is a computer program or a computer that runs the application.
+2) It is responsible for accepting HTTP requests from clients and serving back that HTTP responses.
+3) Subset of the application server.
+4) Web servers are used for producing produce static or dynamic, hypertext documents.
+5) Web servers need a web browser to display the result of the HTTP request. This is commonly known as an HTTP response.
+6) It provides an environment for server-side programs to execute and produce HTTP response in results.
+7) Web servers are accessed using HTTP request and HTTP protocols.
+8) The result is a hypertext document storing the information which is displayed to the user on a web browser.
+9) The web server delivers static content.
+10) Reduces longer running processes that are resource-intensive.
+11) Web server consumes fewer resources like CPU memory compared with the application server.
+12) The web server supports HTTP Protocol.
+13) Web server enables to serve web-based applications.
+14) Web servers support scripting languages like PHP, Perl, JSP, ASP, etc.
+15) The web server does not support multithreading.
+16) Web servers are primarily designed to serve HTTP content.
+17) It provides an environment to run a web application.
+
+
+
+
+
+3) What are the challenges of developing an Enterprise application?
+
+ans.==============================================================
+
+The main challenges that you will have to face with Enterprise App Development are:
+
+1. Changing Environments and Business Requirements
+
+Sometimes, the environment of the business might change completely. The changes can be in the form of economic disruptions or 
+technological changes. Based on the feedback and data analysis, the way the company works may change too. 
+This means that new requirements have to be set and new workflows have to be implemented.
+
+In some cases, there can be acquisition or merger taking place at organization level. At such situations, 
+it is not easy to merge both the businesses into one and come up with an individual enterprise application which works for both.
+
+Such applications are complex in nature and so when you attempt to make change in one requirement, it can have direct 
+effect on another one. You can predict such changes quickly but by having a scalable and flexible architecture is very crucial.
+
+Tip: When you make use of modular architecture then any changes made to a single module is not going to affect other modules 
+and will not alter their functioning. This will save you a lot of development time that would be otherwise spent on making 
+corrections.
+
+
+2. Moving to Mobile Platform
+
+Today more number of enterprise applications is planning to turn mobile. The demand of enterprise mobility is increasing every 
+year. Compared to desktop solutions, mobility and cloud computing is moving ahead quickly and if your company does not offer 
+such application services, it might lose its relevance. Mobility can help with faster decision-making and can boost productivity.
+
+Customers as well as employees like mobility solutions and so it has turned to be more of a necessity today. Moving to mobile 
+platform can be a quick decision to make but the challenge here is to make the transition as smooth as possible. You don’t want 
+to have a heavy mobile application developed and also ensure all the important functionalities are included in there.
+
+Tip: Creating right experience for the mobile users is very important. You need to check the layout properly to ensure that it 
+fits in properly with the mobile format.
+
+
+3. Security
+
+Security is a very important point to consider when developing mobile applications and this means securing the resources and 
+controlling user access. Enterprise application comes with a number of services like Business Process Services, 
+Operating System Services, User-Interface Services, etc. and by controlling user access, you will be able to set authorized 
+users for such services.
+
+For any application having a strong defence system in place is important and this should be applied at network and host level, 
+including firewalls and encryptions. For any company, enterprise data is very important. For the same, install right security 
+software in your application and ensure your data is completely protected.
+
+Your cloud-based software and mobile applications are more prone to cyber-attacks because of the increased vulnerabilities that
+come through different networks. You need to be sure that the security software you are using is capable enough to handle things.
+ Necessary security patches should be updated regularly within the software and it should be implemented across all the platforms.
+
+
+Tip: It is important to conduct application vulnerability test on regular basis and it should be assessed. Such tests will 
+look for loopholes in the software where the hackers can attack the software. You need to be sure that everything is secure 
+and under control.
+
+
+4. Big Data
+
+Today data is getting collected at a great speed. Large volumes of data are getting accumulated in enterprise applications and 
+the main challenge they face is to manage the data efficiently. Again, large volumes of data means increased data centre costs, 
+storage costs, network costs, etc. for the enterprises, and slow loading speed of the application for the users which compromises
+their experience.
+
+It would be better that you make use of Hadoop like Big Data platforms to move your inactive data as they offer affordable 
+storage, security and maintenance. You can always keep your active data on Tier-I infrastructure; however it is quite expensive 
+compared to the former option.
+
+Tip: You need to be sure about the kind of the big data application (cloud-based or on-premise), you will be choosing for your 
+project.
+
+
+5. Changing Technology
+
+Change is inevitable. Enterprise applications have been changed by cloud computing models and traditional delivery models are 
+replaced by Software as a Service(SaaS) today. The technology which is relevant today may turn to be obsolete tomorrow. 
+When developing enterprise application, you need to be sure that it is future-proof and should not go through changes often.
+
+Including technologies like Artificial Intelligence (AI) can be a great move as more number of businesses are identifying its 
+potential and implementing it. Opting for a modular architecture will make it safe and quick to upgrade your application based 
+on technology changes.
+
+Tip: Stay close with the latest trends and technologies in the market. Get insights from them and build a strategy to be ahead 
+in the game.
+
+
+
+
+4) Explain how the Spring framework evolves.
+
+ans.=====================================================
+
+The Spring Framework was first released in 2004. After that there has been a significant major revision, 
+such as Spring 2.0 provided XML namespaces and AspectJ support, Spring 2.5 provide annotation-driven configuration, 
+Spring 3.0 provided a Java-based @Configuration model. The latest release of the spring framework is 4.0. it is 
+released with the support for Java 8 and Java EE 7 technologies. Though you can still use Spring with an older version of java,
+ the minimum requirement is restricted to Java SE 6. Spring 4.0 also supports Java EE 7 technologies, such as java message 
+ service (JMS) 2.0, java persistence API (JPA) 2.1, Bean validation 1.1, servlet 3.1, and JCache.
+

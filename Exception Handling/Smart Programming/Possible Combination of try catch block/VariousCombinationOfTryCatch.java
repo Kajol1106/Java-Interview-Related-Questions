@@ -26,7 +26,8 @@ public class VariousCombinationOfTryCatch {
 		catch (Exception e) {
 			// code
 		}
-		
+
+		/*
 		//4. we can use many as catch blocks with same try block
 		try 
 		{
@@ -38,6 +39,8 @@ public class VariousCombinationOfTryCatch {
 		catch (Exception e) {
 			// code
 		}
+
+		 */
 		
 		
 		//5. We can write try-catch block inside the catch block

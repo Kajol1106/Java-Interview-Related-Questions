@@ -1,0 +1,18 @@
+Data Types : 
+============
+
+Defination : The type of data that we stored in the variable is known as data type. 
+for ex., int a = 0; char c = 'a'; String name = "kaju";
+
+- There are two types of data types : 
+1) Primitive :
+    - Primitive types are the most basic data types available within the java language
+    - The size is fixed
+    - there are 8 types of primitive data types are boolean, byte, char, short, int, float, long, double
+    - ex,. int a = 10 or int a = 1000; in this case int data type will take 4 byte of memory.
+
+2) Non-Primitive : 
+    - Non-Primitive data types are derived from primitive data types.
+    - size is not fixed.
+    - some non-primitive data types are String, array, class, structures, unions etc.
+    - ex., int[] arr = new int[3]; in this case array will take 12 byte o memory but if we declare int[] arr = new int[4]; in this 
