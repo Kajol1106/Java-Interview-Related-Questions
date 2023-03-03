@@ -247,7 +247,8 @@ ii) Object last(); return last elements
 iii) SortedSet headSet(Object obj); //return the SortedSet whose elements are < obj
 iv) SortedSet tallSet(Object obj); //return the SortedSet whose elements are >= obj
 v) SortedSet subSet(Object obj1, Object obj2); //return the SortedSet whose elements are >= obj1 and < obj2;
-6) Comparator comparator();     //return comparator object that describes underlyiing sorting technique. If we are using default natural sorting order then we will get null.
+6) Comparator comparator();     //return comparator object that describes underlyiing sorting technique.
+If we are using default natural sorting order then we will get null.
 
 Note :
 * Default natural sorting order for numbers Ascending order and for String alphabetical order.
@@ -256,7 +257,68 @@ Note :
 - Implemented class :
 TreeSet :
 =========
--
+- The underlying data structure for treeset is balanced tree.
+- duplicate objects are not allowed.
+- Insertion order not preserved, but all objects will be inserted according to some sorting order.
+- Heterogeneous objects are not allowed. If we are trying to insert heterogeneous objects then we will get runtime exception saying classcastexception.
+- null insertion is not allowed.
+- Constructor :
+i) TreeSet t = new TreeSet();   //element inserted according to default natural sorting order.
+i) TreeSet t = new TreeSet(Comparator c);   //elements will be inserted according to customized sorting
+i) TreeSet t = new TreeSet(Collection c);
+i) TreeSet t = new TreeSet(SortedSet s);
+- Methods :
+
+Note :
+* If we are depending on default natural sorting order then objects should be homogeneous and comparable. Otherwise we will get runtime exception saying ClassCastException.
+* An object is said to be comparable if and only if the corresponding class implements java.lang.comparable interface.
+* String class and all wrapper classes already implements comparable interface. But StringBuffer doesn't implement comparable interface.
+Hence if we trying to add StringBufferObject then we will get ClassCastException.
+
+
+
+Comparable Interface :
+========================
+- This interface present in java.lang package. It contains only one method CompareTo()
+public int compareTo(Object obj)
+Example :
+obj1.compareTo(obj2)
+return -ve : if obj1 has to come before obj2
+return +ve : if obj1 has to come after obj2
+return 0 : if obj1 and obj2 are equal.
+
+System.out.println("A".compareTo("Z")); //-25 -ve
+System.out.println("Z".compareTo("B")); //24    +ve
+System.out.println("A".compareTo("A")); //0 0
+System.out.println("A".compareTo(null));    //NullPointerException
+
+If we depending on default natural sorting order internally JVM will call CompareTo() method
+will inserting objects to the TreeSet. Hence the objects should be Comparable.
+
+TreeSet t = new TreeSet();
+t.add("B");
+t.add("Z"); //Z.compareTo(A); +ve
+t.add("A"); //A.compareTo(B); -ve
+
+Note :
+- If we are not satisfied with default natural sorting order or inf the default natural sorting order is not already available then we can define our own customized sorting by using Comparator.
+- Comparable ment for default natural sorting order where as comparator ment for customized sorting order.
+
+
+Comparator Interface :
+=======================
+- We can use comparator to define our own sorting (Customized sorting).
+- Comparator interface present in java.util package.
+- It defines two methods. compare and equlas.
+1) public int compare(Object obj1, Object obj2)
+i) return -ve if obje1 has to come before obj2
+ii) return +ve if obj1 has to come after obj2
+iii) return 0 if obj1 and obj2 are equal
+2) public boolean equals();
+
+- when ever we are implementing Comparator interface, compulsory we should provide implementation for compare() method.
+- And implementing equals() method is optional, because it is already available in every java class from object class through inheritance.
+
 
 ******************************************************************************************************************************
 
@@ -462,4 +524,46 @@ iii) Accessibility : read, remove, replace and addition of new objects access
 iv) how to get it? : by using listIterator() method of Vector class
 v) methods : 9 methods
 vi) Is it legacy : "no" (1.2v)
+
+
+=====================================================================================================================
+
+* Some Tricky Interview Questions on ArrayList *
+=================================================
+
+1) List Object creation scenario
+ArrayList arr = new ArrayList<String>();    //it's not preferable because it's a tightly coupled
+List<String> list - new ArrayList<>();  //it's a preferable
+
+2) How can I write Custome ArrayList where I don't want to allow duplicate?
+=>
+public class CustomArrayList extends ArrayList {
+    @Override
+    public boolean add(Object o) {
+        if(this.contains(o)) {
+            return true;
+        }
+        else {
+            return super.add(o);
+        }
+    }
+
+    public static void main(String[] args) {
+        CustomArrayList list = new CustomArrayList();
+        list.add(1);
+        list.add(1);
+        list.add(2);
+        list.add(5);
+        System.out.println(list);   //[1, 2, 5]
+    }
+}
+
+
+3) Why set doesn't allow duplicate Element ?
+
+
+
+Note : If we will trying to add primitive data type in set then it will not allowed
+but if we will try to other object in set then it will allow duplicate to avoid this we have to
+override equal and hashcode methods in our custome object.
 

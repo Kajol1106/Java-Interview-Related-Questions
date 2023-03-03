@@ -1,11 +1,7 @@
 - It is introduced in java 1.8 version.
-
 - Main motive is to implement functional interface (Functional Programming Feature) and code optimization
-
 - In OOP Data store int form of class and objects
-
 - Functional Programming - store data in function and varibale form.
-
 - Lambda expression is annonymous function in java (It does'nt have name and return type and no return value and doesn't have access modifier)
 
 - Examples :
@@ -29,5 +25,36 @@ public void method(int a) {
     return a*a;
 }
 (a) -> {return a*a; } or (a) -> a*a; or a-> a*a;
+
+===============================
+Durga Sir : (1.8 imp features)
+===============================
+1) lambda expression
+2) functional interfaces
+3) default methods
+4) predefined functional interfaces
+    1. Predicates
+    2. Functions
+    3. Supplier
+    4. Consumer
+5) Double colon operator (::)
+(Constructor and method references)
+7) Stream API
+8) Date and Time API(Joda Time API)
+
+
+Main intention of 1.8 :
+- To simplify programming
+- To utilize funcational programming
+- to enable parallel programming
+
+1) Lambda Expression :
+=========================
+- Lambda expression used 1st programming language is LISP
+- To enable functional programming in java
+- Write more readable, maintainble and clean code
+- To use  API's very easily and effectively
+- To enable parallel programming.
+
 
 

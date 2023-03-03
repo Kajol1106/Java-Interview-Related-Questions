@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="d04b59a1-e618-408e-96d9-816c07bddf8b" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Collection/Durga" beforeDir="false" afterPath="$PROJECT_DIR$/Collection/Durga" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java-Interview-Related-Questions.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lambda Expression/Lambda.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Lambda Expression/Lambda.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SQL/sql1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Stack/StackDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Video2/Q1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java-Interview-Related-Questions/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java-Interview-Related-Questions/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java-Interview-Related-Questions/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java-Interview-Related-Questions/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java-Interview-Related-Questions/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java-Interview-Related-Questions/Arrays/BubbleSortAlgorithm.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java-Interview-Related-Questions/Arrays/LinkedListDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java-Interview-Related-Questions/Arrays/Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java-Interview-Related-Questions/Arrays/Q1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java-Interview-Related-Questions/Basic Concepts/DataType.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java-Interview-Related-Questions/Collection/ArrayListDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java-Interview-Related-Questions/Collection/Collection(I)Methods.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java-Interview-Related-Questions/Collection/CursorDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java-Interview-Related-Questions/Collection/Demo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java-Interview-Related-Questions/Collection/Durga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java-Interview-Related-Questions/Collection/Durga.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java-Interview-Related-Questions/Collection/EnumerationDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java-Interview-Related-Questions/Collection/HashSetDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java-Interview-Related-Questions/Collection/IteratorDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java-Interview-Related-Questions/Collection/LinkedHashSetDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java-Interview-Related-Questions/Collection/LinkedListDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java-Interview-Related-Questions/Collection/LinkedListMethods.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java-Interview-Related-Questions/Collection/List(I)Method.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java-Interview-Related-Questions/Collection/ListIteratorDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java-Interview-Related-Questions/Collection/QueueDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java-Interview-Related-Questions/Collection/StackDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java-Interview-Related-Questions/Collection/VectorDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java-Interview-Related-Questions/Collection/collection.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java-Interview-Related-Questions/Collection/durga2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java-Interview-Related-Questions/Collection/sb201.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java-Interview-Related-Questions/Date and Time API/dateAndTimeAPI.txt.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java-Interview-Related-Questions/DateAndTimeAPI/DateAndTimeDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java-Interview-Related-Questions/DateAndTimeAPI/dateAndTimeAPI.txt.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java-Interview-Related-Questions/Exception Handling/Durga/Exception" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java-Interview-Related-Questions/HashMap/HashMapDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java-Interview-Related-Questions/HashMap/HashTableDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java-Interview-Related-Questions/Java-Interview-Related-Questions.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java-Interview-Related-Questions/Lambda Expression/Lambda.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java-Interview-Related-Questions/Maven/maven.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java-Interview-Related-Questions/OOPsConcept/ClassObjectsMethods.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java-Interview-Related-Questions/OOPsConcept/InitializingObjectByReferenceVariable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java-Interview-Related-Questions/OOPsConcept/InitializingObjectByUsingMethod.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java-Interview-Related-Questions/OOPsConcept/constructor" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java-Interview-Related-Questions/PWProblems/MaxMinValueInArray.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java-Interview-Related-Questions/PWProblems/PeakElement.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java-Interview-Related-Questions/PWProblems/PrintOddEvenValues.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java-Interview-Related-Questions/PWProblems/PrintOddIndicesValue.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java-Interview-Related-Questions/PWProblems/PrintPositiveOrNegativeNumbers.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java-Interview-Related-Questions/PWProblems/SearchValueInArray.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java-Interview-Related-Questions/Regular Expression (REGEX)/reges.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java-Interview-Related-Questions/RegularExpression/CharacterClassDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java-Interview-Related-Questions/RegularExpression/ExtractMailIdFromTextFile.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java-Interview-Related-Questions/RegularExpression/ExtractMobileNumberFromTextFile.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java-Interview-Related-Questions/RegularExpression/FileNamesPresentInGivenPath.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java-Interview-Related-Questions/RegularExpression/MailIdValidOrNot.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java-Interview-Related-Questions/RegularExpression/MobileNumberValidOrNot.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java-Interview-Related-Questions/RegularExpression/RegEXDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java-Interview-Related-Questions/RegularExpression/SplitMethodDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java-Interview-Related-Questions/RegularExpression/reges.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java-Interview-Related-Questions/SQL/sql1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java-Interview-Related-Questions/Stack/StackDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java-Interview-Related-Questions/String/CountCharOccuranceInString.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java-Interview-Related-Questions/String/CountWordsInString.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java-Interview-Related-Questions/String/PrintLowerCaseCharacterInString.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java-Interview-Related-Questions/String/PrintUppercaseCharInString.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java-Interview-Related-Questions/String/ReadingDataFromTextFile.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java-Interview-Related-Questions/String/RemoveSpecialCharsInString.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java-Interview-Related-Questions/String/RemoveWhiteSpacesInString.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java-Interview-Related-Questions/String/ReturnASCIIValueOfCharInString.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java-Interview-Related-Questions/String/ReverseEachWordInString.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java-Interview-Related-Questions/String/ReverseString.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java-Interview-Related-Questions/String/WriteDataIntoTextFile.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java-Interview-Related-Questions/Video2/Q1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java-Interview-Related-Questions/com/CreateThreadUsingRunnableInterface/Creating_Thread_Using_Runnable_Interface.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java-Interview-Related-Questions/com/CreateThreadUsingThreadClass/Creating_Thread_Using_Thread_Class.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java-Interview-Related-Questions/com/Daemon Thread/daemon.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java-Interview-Related-Questions/com/Multithreading.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java-Interview-Related-Questions/com/Thread Priorities/priorities.txt" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2LKcelT4DgH1VjKLLqhcQMptH1k" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "C:/Users/kajol/Desktop/Java-Interview-Related-Questions/Stream API"
+  }
+}]]></component>
+  <component name="RunManager" selected="Application.DurgaDemo">
+    <configuration name="DurgaDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="String.DurgaDemo" />
+      <module name="Java-Interview-Related-Questions" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="String.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TreeSetDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Collection.TreeSetDemo" />
+      <module name="Java-Interview-Related-Questions" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Collection.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.DurgaDemo" />
+        <item itemvalue="Application.TreeSetDemo" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d04b59a1-e618-408e-96d9-816c07bddf8b" name="Changes" comment="" />
+      <created>1675623317280</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1675623317280</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
