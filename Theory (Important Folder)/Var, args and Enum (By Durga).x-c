@@ -15,25 +15,12 @@ package com.masai;
 public class Demo {
 
 	public static int add(int... arr) {
-		
 		int result=0;
-		
 		for(int i:arr) {
-			
-			result+=i;
-			
+			result+=i;	
 		}
-		
-		
-		
-		
-		return result;
-		
-		
+		return result;		
 	}
-	
-	
-	
 	
 	public static void main(String[] args) {
 		
@@ -44,108 +31,60 @@ public class Demo {
 		
 		//System.out.println(add(null));
 		
-		System.out.println(add(nums));
-		
-		
+		System.out.println(add(nums));	
 	}
-
 }
-
-
 
 Note: we can access var-args elements using zero based index, simillar to normal array.
 
 
 rules of using var-args:
------------------------------
-
-
+----------------------------
 1. if we want to declare any other parameters along with the var-args then this 
 var-arg parameter must be the last parameter.
-
-
 example:
 
 package com.masai;
-
 public class Demo {
 
-	public static int add(String name, int... arr) {
-		
+	public static int add(String name, int... arr) {	
 		int result=0;
-		
 		for(int i:arr) {
-			
 			result+=i;
-			
 		}
-		
-		
-		
-		
-		return result;
-		
-		
+		return result;		
 	}
 	
-	
-	
-	
-	public static void main(String[] args) {
-		
-		
+	public static void main(String[] args) {	
 		System.out.println(add("Hello"));
 		System.out.println(add("Hello",10));
 		System.out.println(add("Hello",20,30));
-		System.out.println(add("Hello",null));
-		
+		System.out.println(add("Hello",null));		
 	}
-
 }
 
 2. inside a single method we can not have 2 var-args as a parameter.even for 
 different types also.
 
 3. if multiple overloaded methods are there then var-args gets the least priority.
-
 example:
-
 package com.masai;
-
 public class Demo {
-
-	public static int add(int... arr) {
-		
-		int result=0;
-		
-		for(int i:arr) {
-			
-			result+=i;
-			
-		}
-		
-		return result;
-		
-		
+	public static int add(int... arr) {		
+		int result=0;		
+		for(int i:arr) {			
+			result+=i;			
+		}		
+		return result;		
 	}
-	
-	
-	public static int add(int i) {
 		
-		System.out.println("inside add(int i)");
-		
+	public static int add(int i) {		
+		System.out.println("inside add(int i)");		
 		return 0;
 	}
-	
-	
-	
-	
+
 	public static void main(String[] args) {
-		
-		
-		System.out.println(add(10));// second add metthod will be called
-		
-		
+		System.out.println(add(10));// second add metthod will be called	
 	}
 
 }
@@ -154,16 +93,10 @@ public class Demo {
 takes array of the same type parameter. it will become duplicate method
 defination.
 
-
 example2:
-
 package com.masai;
-
 public class Demo {
-
-	public static void fun1(Student... students) {
-		
-		
+	public static void fun1(Student... students) {		
 		for(Student s:students) {
 			
 			System.out.println(s);
@@ -615,28 +548,3 @@ public class Demo {
 	}
 
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
